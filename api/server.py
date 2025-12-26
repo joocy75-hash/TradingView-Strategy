@@ -65,8 +65,8 @@ class StrategyDetail(BaseModel):
 
 app = FastAPI(
     title="Strategy Research Lab API",
-    description="TradingView 전략 분석 결과 API",
-    version="1.0.0",
+    description="TradingView 전략 분석 결과 API - Hetzner 자동 배포",
+    version="1.1.0",
     docs_url="/api/docs",
     redoc_url="/api/redoc",
     openapi_url="/api/openapi.json"
